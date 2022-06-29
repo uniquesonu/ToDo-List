@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rebeccapurple;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.abc{
+	background: white;
+	border-radius: 10px;
+    padding: 2em;
+    width: fit-content;
+}
+
+.abc h1{
+    text-align: center;
+}
+
+.abc .container .input_class{
+    font-family: 'Poppins',sans-serif;
+    font-size: 25px;
+    border: 2px solid green;
+    padding: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.abc .container {
+    display: flex;
+    align-items: stretch;
+    gap: 1em;
+}
+
+.task {
+    padding: 0.25em 0;
+  }
+
+.task, .new_task {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.task_options {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+  }
+
+.done{
+    text-decoration: line-through;
+}
+
+.task span{
+    cursor: pointer;
+
+}
+
+
+button{
+    background-color: green;
+    color: #ffffff;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+    
+    
+}
+
+ul{
+    border: 2px solid black;
+    width: 100%;
+    list-style: none;
+    padding: 1em;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+
+.task-wrapper .task{
+    display: flex;
+    flex-direction: row;
+    gap: 12em;
+}
