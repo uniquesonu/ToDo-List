@@ -89,8 +89,3 @@ ul{
     gap: 12em;
 }
 
-@media (max-width:768px) {
-    .abc{
-        width: 26em;
-    }
-}
